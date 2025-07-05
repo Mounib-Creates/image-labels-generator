@@ -1,0 +1,14 @@
+This folder contains input images to be uploaded to Amazon S3
+and analyzed using Amazon Rekognition.
+
+✅ Supported formats: .jpg, .jpeg, .png
+❌ Unsupported formats: .webp, .gif, .bmp
+
+📝 Example usage:
+- Place your image (e.g., dog.jpg) here
+- Run the upload script to push it to S3:
+    bash ../scripts/upload_to_s3.sh <your-bucket-name> dog.jpg
+
+Then run the label detection script to get labels from Rekognition.
+
+You can delete or replace the sample image as needed.
