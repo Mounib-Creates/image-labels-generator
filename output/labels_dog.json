@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Dog",
+    "Confidence": 98.6
+  },
+  {
+    "Name": "Pet",
+    "Confidence": 95.4
+  },
+  {
+    "Name": "Mammal",
+    "Confidence": 93.2
+  }
+]
